@@ -1,7 +1,9 @@
 import React from 'react'
-
+import RouterView from "./route/router"
 export default function App() {
     return (
-        <div>App</div>
+        <div>
+            <RouterView />
+        </div>
     )
 }
